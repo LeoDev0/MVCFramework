@@ -1,0 +1,1 @@
+Note: To use the framework you have to change the app/config/config.php file, and change the app folder name inside public/.htaccess to whatever you named you project.

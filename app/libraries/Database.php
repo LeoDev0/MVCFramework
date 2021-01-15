@@ -64,7 +64,7 @@ class Database {
         return $this->stmt->execute();
     }
 
-    // Get result as array og objects
+    // Get result as array of objects
     public function resultSet() {
         $this->execute();
         return $this->stmt->fetchAll(PDO::FETCH_OBJ);
